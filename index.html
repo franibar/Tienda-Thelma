@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<header>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .flex-container{
+        background-color: rgb(149, 195, 217);
+      }
+    </style>
+</header>
+
+
+
+<body class="flex-container">
+    <H1 id="titulo1" class="text-center" class="display-1" >Thelma</H1> 
+    <h5 id="titulo2" class="text-center m-4" class="display-1" >Los vestidos que no sabías que necesitabas</h5>
+ 
+
+    <ul class="nav nav-tabs justify-content-center m-4">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">VESTIDOS</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">TODO VESTIDOS</a></li>
+                <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">MAXI</a></li>
+              <li><a class="dropdown-item" href="#">MIDI</a></li>
+              <li><a class="dropdown-item" href="#">NOCHE</a></li>
+            </ul>
+          </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ACCESORIOS</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">TODO ACCESORIOS</a></li>
+                <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">CINTILLOS</a></li>
+              <li><a class="dropdown-item" href="#">ANILLOS</a></li>
+              <li><a class="dropdown-item" href="#">AROS</a></li>
+            </ul>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ZAPATOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disable" href="/contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+      
+      <div class="container text-center justify-content-center">
+        <div class="row">
+          <CardVestidos></CardVestidos>
+          <CardVestidos></CardVestidos>
+          <CardVestidos></CardVestidos>
+          <CardVestidos></CardVestidos>
+          <CardVestidos ca></CardVestidos>
+          <CardVestidos titulo="Vestido Fran"></CardVestidos>
+          
+          <div class="col m-1">
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/img/vestidoamalia.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vestido Amalia </h5>
+                  <p class="card-text">Desde la talla 2 a las 10 </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="button">Comprar</button>
+                      </div> 
+                </div>
+              </div>
+          </div>
+          <div class="col m-1">
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/img/vestidojose.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vestido Jose</h5>
+                  <p class="card-text">Desde la talla 2 a la 10.</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary me-md-2" type="button">Comprar</button>
+                  </div>                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col m-1">
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/img/vestidoangelica.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 id= vestido1 class="card-title">Vestido Angelica</h5>
+                  <p class="card-text">Desde la talla 2 a la 10</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary me-md-2" type="button">Comprar</button>
+                  </div> 
+                </div>
+              </div>
+          </div>
+          <div class="col m-1">
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/img/vestidosusana.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vestido Susana</h5>
+                  <p class="card-text">Desde la talla 2 a las 10 </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="button">Comprar</button>
+                      </div> 
+                </div>
+              </div>
+          </div>
+          <div class="col m-1">
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/img/vestido1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vestido Michelle</h5>
+                  <p class="card-text">Desde la talla 2 a la 10.</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary me-md-2" type="button">Comprar</button>
+                  </div>                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <script>
+        function cambiarcolor(){
+            
+            var vestido1 = document.getElementById("vestido1");
+            vestido1.style.borderColor = "yellow";
+        }
+        function cambiartamano() {
+            var titulo2 = document.getElementById("titulo2");
+            titulo2.style.fontSize ="100%";
+        }
+        function accionbtn (){
+            cambiarcolor();
+            cambiartamano();
+        }
+      </script>
+</body>
